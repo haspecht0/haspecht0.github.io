@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.719);
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 8px 25px;
+    transition: all.5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+/* home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    background-image: url('Dark-Wallpaper-Desktop-Background-1B6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white,0 0 10px white,0 0 15px white;
+    font-weight: bold;
+}
+/* About section */
+#home{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    display: 575px;
+    height: 560px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+/* Links to Websites */
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.973);
+    color: rgb(0, 0, 0);
+    align-items: center;
+    padding: 20px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: normal;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 200px;
+    height: 140px;
+    margin: 10px;
+}
+/* Schedule Section */
+#services{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+table {
+	border-collapse: collapse;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+table td {
+	padding: 15px;
+}
+table thead td {
+	background-color: #54585d;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+	border: 1px solid #54585d;
+}
+table tbody td {
+	color: #636363;
+	border: 1px solid #dddfe1;
+}
+table tbody tr {
+	background-color: #f9fafb;
+}
+table tbody tr:nth-child(odd) {
+	background-color: #ffffff;
+}
